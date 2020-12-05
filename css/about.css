@@ -1,0 +1,129 @@
+html{
+    background-color: #000000;
+}
+header {
+    color: whitesmoke;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image:url(../images/ab.jpg);
+}
+.a {
+    text-align: left;
+    line-height: 1%;
+    font-size: 120%;
+}
+
+.content-area {
+    background-color: honeydew;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0%;
+}
+.c {
+    color: whitesmoke;
+    border-top: 3px,whitesmoke;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+
+
+
+img {
+    width: 70%;
+    height: auto;
+    padding-top: 20px;
+    
+}
+
+.site ul {
+    margin: 0;
+    float: left;
+   
+}
+.site li {
+    list-style: none;
+    
+    padding-right: 2px;
+    
+}
+.site a {
+    
+    color: lavenderblush;
+    text-decoration: none;
+    
+    float: left;
+    
+   
+}
+.site a:hover {
+    background-color: grey;
+}
+
+/*Site Navagation*/
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li{
+    list-style: none;
+    float: right;
+    padding-right: 2px;
+    
+    padding-right: 2px;
+    
+
+}
+.site-nav a {
+    display: table;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+    border: 3px solid #e5e9dc;
+    
+    
+}
+
+.site-nav a:hover {
+    background-color:gray;
+}
+
+nav {
+    text-align: center;
+}
+/* End of Site */
+
+.us {
+    color: honeydew;
+    background-image: url(../images/k.jpg);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.d {
+    color: whitesmoke;
+    background-color: black;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid whitesmoke;
+    
+}
+
+.p {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}

@@ -1,0 +1,142 @@
+html {
+    background-color:black;
+    background-image: url(../images/ab.jpg);
+}
+
+header {
+    color: whitesmoke;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: url(../images/ab.jpg); 
+
+}
+
+
+.a {
+    text-align: left;
+    line-height: 0%;
+}
+
+
+
+.content-area {
+    background-color: lavender;
+    text-align: center;
+    margin-bottom: 0%;
+    background-image: url(../images/k.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.d {
+    color: whitesmoke;
+    background-color: black;
+    padding-top: 02%;
+    text-align: left;
+    border-bottom: 3px solid white;
+}
+
+.c {
+    color: whitesmoke;
+    border-top: 3px,whitesmoke;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.info-box {
+    color: lavenderblush;
+    text-align: center;
+    box-sizing: border-boxs;
+    width: 40%;
+    border:3px solid whitesmoke;
+    float: none;
+    padding-top: 10px;
+   background-color: lightcoral;
+}
+
+@media screen and(max-width:20000px){
+    .hide-small{
+        display: none;
+    }
+}
+
+@media screen and(max-width: 700px){
+    .content-area,
+    .c,
+    .d {
+        width: auto;
+        float: none;
+    }
+
+}
+@media screen and(max-width: 480px){
+   
+    .d {
+        padding-top: 10px;
+    }
+}
+
+.site ul {
+    margin: 0;
+    padding: 0; 
+}
+.site li {
+    list-style: none;
+   
+    padding-right: 2px;
+    
+}
+.site a {
+    
+    color: lavenderblush;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+   
+}
+.site a:hover {
+    background-color: grey;
+}
+    
+
+
+/* Site Navigation */
+.site-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.site-nav li {
+    list-style: none;
+    float: right;
+    padding-right: 2px;
+   
+}
+.site-nav a {
+    display: table;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+    border: 3px solid #e5e9dc;
+    
+}
+
+.site-nav a:hover {
+    background-color: grey;
+    
+}
+
+nav {
+    text-align: center;
+}
+/* End of Site */
+.container {
+    
+    height: 0 auto;
+}
+
